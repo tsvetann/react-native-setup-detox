@@ -1,0 +1,27 @@
+{
+  "name": "react-native-setup-detox",
+  "version": "1.0.0",
+  "description": "setup react native detox automation testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "detox",
+    "automation",
+    "testing"
+  ],
+  "author": "Tsvetan Nikolov",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "execa": "^4.0.3",
+    "figlet": "^1.5.0",
+    "fs-copy-file-sync": "^1.1.1",
+    "merge-files": "^0.1.2",
+    "replace-in-file": "^6.1.0"
+  }
+}
