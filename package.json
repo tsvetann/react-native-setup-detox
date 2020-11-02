@@ -1,10 +1,14 @@
 {
   "name": "react-native-setup-detox",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "setup react native detox automation testing framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsvetann/react-native-setup-detox"
   },
   "keywords": [
     "react",
@@ -14,7 +18,10 @@
     "testing"
   ],
   "author": "Tsvetan Nikolov",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsvetann/react-native-setup-detox/issues"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "clear": "^0.1.0",

@@ -4,7 +4,7 @@
 const clear = require("clear");
 const chalk = require("chalk");
 const figlet = require("figlet");
-const { updateFiles, installPackages, detoxInit, nextSteps } = require("./lib");
+const { updateFiles, installPackages, detoxInit } = require("./lib");
 const reactNativeConfig = require("./lib/reactNativeConfig");
 
 clear();
@@ -18,7 +18,6 @@ async function init() {
   installPackages();
   detoxInit(config.project.android);
   await updateFiles(config.project.android);
-  nextSteps();
 }
 
 init()
