@@ -2,7 +2,10 @@
   "name": "react-native-setup-detox",
   "version": "0.0.2",
   "description": "setup react native detox automation testing framework",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": {
+    "react-native-setup-detox": "./index.js"
+  },
   "scripts": {
     "test": "echo \"No test specified\""
   },
