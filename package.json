@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"No test specified\""
   },
+  "homepage": "https://github.com/tsvetann/react-native-setup-detox#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tsvetann/react-native-setup-detox"
@@ -16,6 +17,11 @@
     "detox",
     "automation",
     "testing"
+  ],
+  "files": [
+    "lib",
+    "templates",
+    "index.js"
   ],
   "author": "Tsvetan Nikolov",
   "license": "MIT",
